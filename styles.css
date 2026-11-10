@@ -431,3 +431,101 @@ html{scroll-behavior:smooth}
 @keyframes slowOrbit{to{transform:rotate(360deg)}}
 @media(max-width:800px){.hero:after{width:280px;height:280px;right:-90px;top:35%}.hero-art{overflow:hidden}.mission:after{font-size:130px;right:-12px;bottom:-45px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;scroll-behavior:auto!important;transition-duration:.01ms!important}.reveal{opacity:1;transform:none}}
+
+
+/* New color identity: cobalt, butter yellow, and warm ivory */
+:root{
+  --green:#243f91;
+  --green2:#3154b8;
+  --lime:#ffe28a;
+  --cream:#fffaf0;
+  --ink:#202744;
+  --muted:#68708a;
+  --line:#e8e5dc;
+  --surface:#fffaf0;
+}
+body{background:#fffdf7;color:#202744}
+.header{background:rgba(255,253,247,.96);border-bottom-color:#243f911c}
+.brand,.brand b{color:#243f91}
+.brand small{color:#8389a0}
+nav{color:#59617d}
+nav a:hover{color:#e17b59}
+.nav-cta{background:#243f91;color:#fff}
+.hero{background:radial-gradient(ellipse at 82% 38%,#5272d1 0%,transparent 38%),linear-gradient(125deg,#1c3278,#294ba7 65%,#3154b8);color:#fff}
+.hero:after{border-color:#ffe28a55}
+.hero h1 em,.feature h2 em,.involved h2 em{color:#ffe28a}
+.eyebrow{color:#ffe7a5}
+.eyebrow.dark{color:#536bb4}
+.poster{background:#ffe28a;color:#243f91;box-shadow:12px 14px 0 #17295f}
+.round-stamp{border-color:#ffe28a;color:#ffe28a}
+.hero-foot{border-top-color:#ffffff35}
+.hero-foot .wrap{color:#d1d9f3}
+.hero-foot b{color:#fff3d0}
+.btn-lime{background:#ffe28a;color:#243f91}
+.btn-lime:hover{background:#fff0bd}
+.underlink{color:#243f91;border-color:#c4c9db}
+.underlink.light{color:#fff;border-color:#b6c4ee}
+.section h2 em,.founder-intro h2 em{color:#526bb4}
+.founder{background:#f5f3ff}
+.founder-monogram{background:#243f91;color:#ffe28a;box-shadow:12px 12px 0 #e2def4}
+.founder-monogram:after{border-color:#ffe28a77}
+.founder-name,.founder-quote,.founder-signoff strong{color:#243f91}
+.founder-name span,.founder-story{color:#68708a}
+.founder-signoff{border-color:#dedbed}
+.mission{background:#fff1d2}
+.mission h2{color:#243f91}
+.mission-foot{border-color:#e6d8b9;color:#77708a}
+.mission:after{color:#f0dfb9}
+.impact{background:#fffdf7}
+.stat-card strong{color:#3154b8}
+.stat-card span{color:#202744}
+.stat-card{border-color:#e8e5dc}
+.impact-note{background:#f1f3ff}
+.impact-mark{color:#e17b59}
+.impact-note b{color:#243f91}
+.impact-note p{color:#68708a}
+.impact-status{color:#536bb4}
+.programs,.values{background:#f5f3ff}
+.program-card{background:#fffdf7}
+.program-card.primary{background:linear-gradient(145deg,#243f91,#3154b8);color:#fff}
+.program-card.primary .card-meta{color:#dce4ff}
+.program-card.primary>p{color:#e0e6fa}
+.program-card>p,.future{color:#68708a}
+.illustration:before{background:#e8eaff}
+.supply{background:#ffe28a;color:#243f91;box-shadow:10px 10px #c4cbed}
+.pencil{background:#e17b59}
+.book{background:#a7b7f0}
+.community div,.growth div{color:#3154b8}
+.growth div{background:#ffe28a}
+.feature{background:linear-gradient(120deg,#243f91,#3154b8);color:#fff}
+.feature-art{background:#fff1d2}
+.feature-art:before,.feature-art:after{border-color:#d8cba9}
+.backpack{background:#e17b59;box-shadow:inset -13px 0 #c9664a,14px 18px #1c3c3020}
+.backpack:before{border-color:#e17b59}
+.backpack i{background:#f39a7c}
+.seal{background:#ffe28a;color:#243f91}
+.feature-copy li{color:#f0f2ff}
+.value-grid{border-color:#dedbed}
+.value-grid article{border-color:#dedbed}
+.value-grid article:hover{background:#eeecfb}
+.value-grid article>span{color:#536bb4}
+.value-grid h3{color:#243f91}
+.value-grid p{color:#68708a}
+.involved{background:linear-gradient(110deg,#1c3278,#3154b8);color:#fff}
+.involved h2 em{color:#ffe28a}
+.involved-side{border-color:#ffffff55}
+.contact{background:#fffdf7}
+.contact-box{background:#f5f3ff;border-color:#e4e0f0}
+.contact-box a{color:#243f91}
+.contact-box small{color:#68708a}
+footer{background:#182b68}
+.footer-main,.footer-bottom{border-color:#ffffff35}
+footer .brand{color:#fff}
+footer .brand small{color:#d5dcf4}
+footer .footer-main>p,footer .footer-main>a:last-child,footer .footer-bottom,footer .legal{color:#d5dcf4}
+a:focus-visible,button:focus-visible{outline-color:#e17b59}
+::selection{background:#ffe28a;color:#243f91}
+@media(prefers-reduced-motion:no-preference){
+  .program-card:hover{box-shadow:0 18px 36px #243f9124}
+  .contact-box:hover{box-shadow:0 15px 35px #243f9117}
+}
