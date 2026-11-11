@@ -558,3 +558,7 @@ a:focus-visible,button:focus-visible{outline-color:#e17b59}
 .global-stat-option:focus-visible,.global-stats-toggle:focus-visible{outline:3px solid #e17b59;outline-offset:3px}
 @media(max-width:800px){.global-impact{padding:62px 0}.global-impact-heading{grid-template-columns:1fr;gap:18px}.global-stat-options{grid-template-columns:1fr}.global-stat-option{min-height:125px}.global-stat-detail{grid-template-columns:1fr;gap:12px;padding:22px}.global-stats-panel{margin-top:26px}}
 @media(prefers-reduced-motion:reduce){.global-stat-option,.global-stats-toggle{transition:none}}
+
+/* Founder portrait */
+.founder-portrait{display:block;width:210px;height:210px;margin-top:35px;object-fit:cover;object-position:center 34%;border-radius:50%;border:7px solid #fff;box-shadow:0 0 0 1px #243f9130,12px 14px 0 #e2def4;background:#fff}
+@media(max-width:800px){.founder-portrait{width:150px;height:150px;margin-top:24px}}
